@@ -22,7 +22,7 @@ Test pro mediora na Next.js
   - seznam článků bude načtený z API `articlesUrl` (viz. `/next.config.js` a `/src/utils/config.ts`)
   - jméno autora může být načteno z API `userUrl` (viz. `/next.config.js` a `/src/utils/config.ts`) a to v případě, že se na stránku přistoupí přímo (např. `/articles/1`). Pokud se půjde přes hlavní stránku, tak se jméno autora načte z kontextu (*React.createContext*).
   - vzhled seznamu podle `/taskImages/articlesList.png`.
-- funkční aplikaci nahrejte na svůj GitHub / Gitlab a do **dvou dnů od obdržení zadání** pošlete odkaz na repozitář na e-mail <vilem.lipold@studentagency.cz>
+- funkční aplikaci nahrejte na svůj GitHub / Gitlab a do **sedmi dnů od obdržení zadání** pošlete odkaz na repozitář na e-mail <vilem.lipold@studentagency.cz>
 - v případě problémů a dotazů volejte na +420 606 753 180 (8.00 – 21.00).
 
 ## Instalation
