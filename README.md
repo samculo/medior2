@@ -63,7 +63,7 @@ saved in `.env` files.
 You can use it in your code like this:
 
 ```typescript
-import style from './Home.module.css';
+import publicRuntimeConfig from '@/utils/config';
 …
 const { usersUrl } = publicRuntimeConfig;
 ```
