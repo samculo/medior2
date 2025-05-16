@@ -8,12 +8,13 @@
       true,
       {
         "ignoreAtRules": [
-          "tailwind",
           "apply",
           "layer",
-          "variants",
           "responsive",
-          "screen"
+          "screen",
+          "tailwind",
+          "use",
+          "variants"
         ]
       }
     ],
