@@ -11,6 +11,10 @@ Test pro mediora na Next.js
 - pro komponenty používejte atomický design (nepoužívejte atoms, molecules, organisms, templates, pages, použijte spíše složky ui, shared a components).
 - subkomponenty vkládejte do složky `components` (např. `UserList/components/UserCard/UserCard.tsx`) atp.
 - všechny karty budou mít hover efekt podle `/taskImages/hover.png`
+- Vytvořte a přidejte na hlavní stránku webu:
+  - komponentu `MainText`, ve které bude markdown text ([viz. níže](#markdown-text)). Použijte nainstalovaný balík pro generování markdownu (`markdown-to-jsx`).
+    - je potřeba, aby odkazy byly generovány jako značka <span>, která bude tučným tmavě zeleným písmem.
+    - je třeba, aby byl markdown text generován správně (tj. ve výsledném kódu budou jen značky <h2>, <span> a <p>)
 - vytvořte komponentu `UserList` která bude zobrazovat seznam uživatelů na hlavní stránce
   - seznam bude SSR
   - seznam uživatelů bude načtený z API `usersUrl` (viz. `/next.config.js` a `/src/utils/config.ts`)
@@ -24,6 +28,18 @@ Test pro mediora na Next.js
   - vzhled seznamu podle `/taskImages/articlesList.png`.
 - funkční aplikaci nahrejte na svůj GitHub / Gitlab a do **sedmi dnů od obdržení zadání** pošlete odkaz na repozitář na e-mail <vilem.lipold@studentagency.cz>
 - v případě problémů a dotazů volejte na +420 606 753 180 (8.00 – 21.00).
+
+### Markdown text
+
+```markdown
+## How to use this application
+
+You see navigation on this page. You can use it to navigate to other pages. Other pages are [Article list](./articles/1) only. You can use it to see articles of any user.
+
+We are using best map web application in the world. You can see it on [Mapy.cz](https://mapy.cz). You can use it to see where is user from.
+
+This page is build with [Next.js](https://nextjs.org/), [React](https://react.dev/) and [Typescript](https://www.typescriptlang.org/). You can use it to build your own application too.
+```
 
 ## Instalation
 

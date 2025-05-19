@@ -1,5 +1,27 @@
 @use './variables' as *;
 
+a {
+  color: $color-link;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+.span-markdown {
+  color: $color-markdown-span;
+  font-weight: 700;
+}
+
 .page-layout {
   width: 100%;
   max-width: $layout-width-tablet;
