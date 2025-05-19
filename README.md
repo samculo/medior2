@@ -13,8 +13,8 @@ Test pro mediora na Next.js
 - všechny karty budou mít hover efekt podle `/taskImages/hover.png`
 - Vytvořte a přidejte na hlavní stránku webu:
   - komponentu `MainText`, ve které bude markdown text ([viz. níže](#markdown-text)). Použijte nainstalovaný balík pro generování markdownu (`markdown-to-jsx`).
-    - je potřeba, aby odkazy byly generovány jako značka <span>, která bude tučným tmavě zeleným písmem.
-    - je třeba, aby byl markdown text generován správně (tj. ve výsledném kódu budou jen značky <h2>, <span> a <p>)
+    - je potřeba, aby odkazy byly generovány jako značka `<span>`, která bude tučným tmavě zeleným písmem.
+    - je třeba, aby byl markdown text generován správně (tj. ve výsledném kódu budou jen značky `<h2>`, `<span>` a `<p>`)
 - vytvořte komponentu `UserList` která bude zobrazovat seznam uživatelů na hlavní stránce
   - seznam bude SSR
   - seznam uživatelů bude načtený z API `usersUrl` (viz. `/next.config.js` a `/src/utils/config.ts`)
