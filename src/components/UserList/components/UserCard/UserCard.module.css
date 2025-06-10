@@ -1,0 +1,33 @@
+.card {
+  @apply shadow-sm p-4 rounded-xl;
+}
+
+.card__title {
+  @apply font-semibold text-xl text-black text-left pb-2;
+}
+
+.card__table {
+  @apply pb-4 text-base font-regular block;
+}
+
+.card__table tr {
+  @apply pb-0.5 block;
+}
+
+.card__label {
+  @apply text-gray/75 w-28;
+}
+
+.card__value {
+  @apply text-gray;
+}
+
+.card__button:link,
+.card__button:visited {
+  @apply w-full text-center py-2 block no-underline text-blue hover:text-blue-dark-1 border-solid border rounded-lg border-blue hover:border-blue-dark-1 transition-all;
+}
+
+.card__link:link,
+.card__link:visited {
+  @apply no-underline text-blue hover:text-blue-dark-1;
+}

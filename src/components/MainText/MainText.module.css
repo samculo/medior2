@@ -1,0 +1,11 @@
+.link {
+  @apply text-green font-bold;
+}
+
+.paragraph {
+  @apply text-base font-regular;
+}
+
+.title {
+  @apply text-xl text-black;
+}

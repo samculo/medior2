@@ -1,0 +1,15 @@
+.title {
+  @apply text-xxl text-black font-semibold;
+}
+
+.list {
+  @apply grid grid-cols-3 gap-4 pt-6;
+}
+
+.author__label {
+  @apply text-gray/75 w-28;
+}
+
+.author__value {
+  @apply text-gray;
+}

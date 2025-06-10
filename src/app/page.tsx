@@ -1,8 +1,12 @@
-import { ReactElement } from 'react';
-import { Home } from '@/components';
+import { ReactElement } from "react";
+import { Home, MainText, UserList } from "@/components";
 
 const Page = (): ReactElement => (
-  <Home />
+  <>
+    <Home />
+    <MainText />
+    <UserList />
+  </>
 );
 
 export default Page;
